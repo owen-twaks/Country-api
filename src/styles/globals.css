@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  .paragraph{
+    @apply font-semibold text-lg mb-4 md:mb-2;
+  }
+  .span{
+    @apply font-thin;
+  }
+}
+  
